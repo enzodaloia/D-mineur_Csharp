@@ -1,0 +1,15 @@
+/Users/enzo/Documents/GitHub/D-mineur_Csharp/bin/Debug/net7.0/D-mineur_Csharp
+/Users/enzo/Documents/GitHub/D-mineur_Csharp/bin/Debug/net7.0/D-mineur_Csharp.deps.json
+/Users/enzo/Documents/GitHub/D-mineur_Csharp/bin/Debug/net7.0/D-mineur_Csharp.runtimeconfig.json
+/Users/enzo/Documents/GitHub/D-mineur_Csharp/bin/Debug/net7.0/D-mineur_Csharp.dll
+/Users/enzo/Documents/GitHub/D-mineur_Csharp/bin/Debug/net7.0/D-mineur_Csharp.pdb
+/Users/enzo/Documents/GitHub/D-mineur_Csharp/obj/Debug/net7.0/D-mineur_Csharp.csproj.AssemblyReference.cache
+/Users/enzo/Documents/GitHub/D-mineur_Csharp/obj/Debug/net7.0/D-mineur_Csharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/enzo/Documents/GitHub/D-mineur_Csharp/obj/Debug/net7.0/D-mineur_Csharp.AssemblyInfoInputs.cache
+/Users/enzo/Documents/GitHub/D-mineur_Csharp/obj/Debug/net7.0/D-mineur_Csharp.AssemblyInfo.cs
+/Users/enzo/Documents/GitHub/D-mineur_Csharp/obj/Debug/net7.0/D-mineur_Csharp.csproj.CoreCompileInputs.cache
+/Users/enzo/Documents/GitHub/D-mineur_Csharp/obj/Debug/net7.0/D-mineur_Csharp.dll
+/Users/enzo/Documents/GitHub/D-mineur_Csharp/obj/Debug/net7.0/refint/D-mineur_Csharp.dll
+/Users/enzo/Documents/GitHub/D-mineur_Csharp/obj/Debug/net7.0/D-mineur_Csharp.pdb
+/Users/enzo/Documents/GitHub/D-mineur_Csharp/obj/Debug/net7.0/D-mineur_Csharp.genruntimeconfig.cache
+/Users/enzo/Documents/GitHub/D-mineur_Csharp/obj/Debug/net7.0/ref/D-mineur_Csharp.dll
