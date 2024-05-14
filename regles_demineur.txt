@@ -1,0 +1,7 @@
+Règles de mon démineur :
+1. Le jeu consiste à découvrir toutes les cases libres du plateau sans toucher les mines.
+2. Il faut choisir la ligne puis la colonne pour découvrir une case.
+3. Si une mine est découverte, la partie est perdue.
+4. Le jeu est gagné lorsque toutes les cases libres sont découvertes sans toucher les mines.
+5. Vous pouvez consulter les 3 meilleurs parties depuis le leaderboard.
+6. Vous pouvez charger une partie depuis la dernière sauvegarde effectué.

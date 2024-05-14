@@ -1,0 +1,11 @@
+Difficulte: 3
+NbCoup: 1
+TempsEcoule: 5
+Plateau:
+X * * 
+* * * 
+* * * 
+Plateau2:
+0 0 -1 
+0 0 -1 
+0 0 -1 

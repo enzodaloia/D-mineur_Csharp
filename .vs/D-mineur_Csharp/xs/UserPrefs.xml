@@ -1,24 +1,22 @@
 ﻿<Properties StartupConfiguration="{BE2B2531-251C-4594-9411-6BF69176E306}|Default">
-  <MonoDevelop.Ide.ItemProperties.D-mineur__Csharp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.D-mineur__Csharp PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="game.cs">
     <Files>
-      <File FileName="Program.cs" Line="17" Column="2" />
+      <File FileName="Program.cs" Line="10" Column="21" />
+      <File FileName="game.cs" Line="198" Column="29" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="D-mineur_Csharp">
-            <Node name="D-mineur_Csharp">
-              <Node name="Program.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
+        <State name="__root__" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
