@@ -1,22 +1,28 @@
 ﻿<Properties StartupConfiguration="{BE2B2531-251C-4594-9411-6BF69176E306}|Default">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.D-mineur__Csharp PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="game.cs">
     <Files>
-      <File FileName="Program.cs" Line="10" Column="21" />
-      <File FileName="game.cs" Line="198" Column="29" />
+      <File FileName="game.cs" Line="259" Column="53" />
+      <File FileName="regles_demineur.txt" Line="1" Column="1" />
+      <File FileName="partie_en_cours.txt" Line="25" Column="1" />
+      <File FileName="Program.cs" Line="2" Column="22" />
+      <File FileName="leaderboard_demineur.txt" Line="3" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__" />
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
+        <State name="__root__">
+          <Node name="D-mineur_Csharp">
+            <Node name="D-mineur_Csharp">
+              <Node name="DEMINEUJR" selected="True" />
+            </Node>
+          </Node>
+        </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

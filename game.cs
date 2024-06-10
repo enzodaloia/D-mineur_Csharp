@@ -217,9 +217,10 @@ namespace D_mineur_Csharp
                         }
                         else
                         {
-                            plateau[ligne, colonne] = "X";
+                            int bombesAdjacentes = CompterBombesAdjacentes(ligne, colonne);
+                            plateau[ligne, colonne] = bombesAdjacentes.ToString();
                             DisplayGame();
-                            Console.WriteLine($"La case ({ligne}, {colonne}) est sûre.");
+                            Console.WriteLine($"La case ({ligne}, {colonne}) est sûre et il y a {bombesAdjacentes} bombes adjacentes.");
                             Console.WriteLine($"Nombre de coups : {nbCoup}");
 
                             if (CheckWinCondition())
@@ -246,6 +247,7 @@ namespace D_mineur_Csharp
                 }
             }
         }
+
 
 
         private bool CheckWinCondition()
@@ -406,7 +408,6 @@ namespace D_mineur_Csharp
                     writer.WriteLine($"TempsEcoule: {tempsEcoule}");
                     writer.WriteLine($"JeuEnCours: {jeuEnCours}");
 
-                    // Sauvegarde du plateau
                     writer.WriteLine("Plateau:");
                     for (int i = 0; i < plateau.GetLength(0); i++)
                     {
@@ -424,7 +425,6 @@ namespace D_mineur_Csharp
                         writer.WriteLine();
                     }
 
-                    // Sauvegarde du plateau2
                     writer.WriteLine("Plateau2:");
                     for (int i = 0; i < plateau2.GetLength(0); i++)
                     {
@@ -522,6 +522,36 @@ namespace D_mineur_Csharp
             {
                 Console.WriteLine($"Une erreur s'est produite lors du chargement de la partie en cours : {ex.Message}");
             }
+        }
+
+        private int CompterBombesAdjacentes(int ligne, int colonne)
+        {
+            int[] directions = { -1, 0, 1 };
+            int compteur = 0;
+
+            foreach (int i in directions)
+            {
+                foreach (int j in directions)
+                {
+                    if (i == 0 && j == 0)
+                    {
+                        continue;
+                    }
+
+                    int nouvelleLigne = ligne + i;
+                    int nouvelleColonne = colonne + j;
+
+                    if (nouvelleLigne >= 0 && nouvelleLigne < difficulte && nouvelleColonne >= 0 && nouvelleColonne < difficulte)
+                    {
+                        if (plateau2[nouvelleLigne, nouvelleColonne] == -1)
+                        {
+                            compteur++;
+                        }
+                    }
+                }
+            }
+
+            return compteur;
         }
 
     }
